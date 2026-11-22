@@ -1,0 +1,296 @@
+<!doctype html>
+<html data-theme="dark">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <meta name="description" content="Cipifaa — Web designer. Desenez interfețe, le animez și le scriu în cod, ca ideea de pe ecran să ajungă întreagă în browser.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cipifaa — Web designer">
+  <meta property="og:description" content="Desenez interfețe, le animez și le scriu în cod, ca ideea de pe ecran să ajungă întreagă în browser.">
+  <meta property="og:image" content="logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cipifaa — Web designer">
+  <meta name="twitter:description" content="Desenez interfețe, le animez și le scriu în cod, ca ideea de pe ecran să ajungă întreagă în browser.">
+  <meta name="twitter:image" content="logo.png">
+  <title>Cipifaa.web</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true"><i class="w1"></i><i class="w2"></i><i class="w3"></i><i class="w4"></i></div>
+  <div class="sentinel" id="sentinel" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="wrap">
+      <span class="nav-title">Cipifaa</span>
+      <span class="nav-clock" id="navClock" aria-label="Ora locală">--:--</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="top">
+      <div class="hero-grid">
+        <div class="hero-l">
+          <div class="status" style="--d:0"><i></i>Disponibil pentru proiecte noi</div>
+          <h1 id="ht" style="--d:1">Cipifaa</h1>
+          <p class="job" style="--d:2">Web designer</p>
+          <p class="role" style="--d:3">Fac site-uri care <span class="sw" id="sw">se simt vii</span></p>
+          <p class="intro" style="--d:4">Desenez interfețe, le animez și le scriu în cod, ca ideea de pe ecran să ajungă întreagă în browser. Fiecare pagină e gândită de la zero.</p>
+          <div class="btns" style="--d:5">
+            <a class="btn pri press" href="#work">Vezi lucrările<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+            <a class="btn alt press" href="#contact"><span class="ci"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M4 7.5l8 6 8-6"/></svg></span>Contact</a>
+          </div>
+        </div>
+        <div class="hero-r" style="--d:3">
+          <i class="orb-deco" aria-hidden="true"></i>
+          <article class="feat">
+            <div class="pv" data-mock="m1" aria-hidden="true"></div>
+            <div class="feat-row">
+              <div><small>Proiect recent · 2026</small><b>Nordlicht Café</b></div>
+              <span class="arr" aria-hidden="true"><svg viewBox="0 0 9 15"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg></span>
+            </div>
+            <button class="go press" type="button" data-p="nordlicht">Vezi proiectul</button>
+          </article>
+          <div class="mini-rev">
+            <span class="av" aria-hidden="true">C</span>
+            <div class="mr-tx"><b>Ai un proiect în minte?</b><small>Hai să vorbim despre el.</small></div>
+            <a class="go2 press" href="#contact">Scrie-mi</a>
+          </div>
+        </div>
+      </div>
+      <div class="widgets stg" style="width:100%">
+        <div class="widget w-clock">
+          <h3><svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg> București</h3>
+          <div class="w-time" id="wTime">--:--</div>
+          <div class="w-date" id="wDate">&nbsp;</div>
+        </div>
+        <div class="widget serv">
+          <h3>Servicii</h3>
+          <ul class="slist">
+            <li><span class="si sm"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="3.5"/><path d="M3.5 9.5h17"/></svg></span> Design de site-uri</li>
+            <li><span class="si sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2 20 8v8l-8 4.8L4 16V8z"/><circle cx="12" cy="12" r="2.6"/></svg></span> Identitate vizuală</li>
+            <li><span class="si sm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M10.2 8.6v6.8l5.4-3.4z"/></svg></span> Motion și prototipuri</li>
+            <li><span class="si sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.5 7.5-5 4.5 5 4.5M15.5 7.5l5 4.5-5 4.5"/></svg></span> Front-end</li>
+          </ul>
+        </div>
+        <div class="widget tools">
+          <h3>Unelte</h3>
+          <div class="chips"><span>Figma</span><span>HTML &amp; CSS</span><span>JavaScript</span><span>GSAP</span><span>Framer</span><span>Webflow</span><span>After Effects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="work">
+      <div class="work-grid">
+        <div class="work-l">
+          <div class="sec-head rv">
+            <span class="cap">Lucrări selectate</span>
+            <h2>Ce am construit</h2>
+            <p>Alege un proiect sau atinge o aplicație ca să vezi cum se mișcă interfața.</p>
+          </div>
+          <div class="pgrid stg">
+            <button class="pcard press" type="button" data-p="nordlicht" aria-label="Deschide Nordlicht Café"><span class="pv" data-mock="m1" aria-hidden="true"></span><span class="meta"><span><b>Nordlicht Café</b><small>Web design · 2026</small></span><span class="arr" aria-hidden="true"><svg viewBox="0 0 9 15"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg></span></span></button>
+            <button class="pcard press" type="button" data-p="atlas" aria-label="Deschide Atlas Fitness"><span class="pv" data-mock="m2" aria-hidden="true"></span><span class="meta"><span><b>Atlas Fitness</b><small>UI / UX · 2025</small></span><span class="arr" aria-hidden="true"><svg viewBox="0 0 9 15"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg></span></span></button>
+            <button class="pcard press" type="button" data-p="fiera" aria-label="Deschide Fieră Market"><span class="pv" data-mock="m3" aria-hidden="true"></span><span class="meta"><span><b>Fieră Market</b><small>E-commerce · 2025</small></span><span class="arr" aria-hidden="true"><svg viewBox="0 0 9 15"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg></span></span></button>
+            <button class="pcard press" type="button" data-p="lumen" aria-label="Deschide Lumen Studio"><span class="pv" data-mock="m4" aria-hidden="true"></span><span class="meta"><span><b>Lumen Studio</b><small>Identitate · 2024</small></span><span class="arr" aria-hidden="true"><svg viewBox="0 0 9 15"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg></span></span></button>
+          </div>
+        </div>
+        <div class="phone rv" style="--d:1">
+          <div class="device">
+            <i class="bt-a"></i><i class="bt-u"></i><i class="bt-d"></i><i class="bt-p"></i>
+            <div class="screen">
+              <i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i>
+              <i class="island"></i>
+              <div class="ph-status" aria-hidden="true">
+                <span id="phTime">--:--</span>
+                <span class="ph-icons">
+                  <svg width="17" height="11" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx=".8"/><rect x="5" y="5.5" width="3" height="6.5" rx=".8"/><rect x="10" y="3" width="3" height="9" rx=".8"/><rect x="15" y="0" width="3" height="12" rx=".8"/></svg>
+                  <svg width="16" height="11" viewBox="0 0 17 12"><path d="M8.5 11.4 6.2 9.1a3.3 3.3 0 0 1 4.6 0zM3.6 6.2a7 7 0 0 1 9.8 0l-1.4 1.4a5 5 0 0 0-7 0zM.8 3.4a11 11 0 0 1 15.4 0l-1.4 1.4a9 9 0 0 0-12.6 0z"/></svg>
+                  <svg width="25" height="12" viewBox="0 0 27 13"><rect x=".5" y=".5" width="22" height="12" rx="3.8" fill="none" stroke="#fff" opacity=".55"/><rect x="2" y="2" width="19" height="9" rx="2.6"/><path d="M24 4.5v4c.9-.3 1.6-1.1 1.6-2s-.7-1.7-1.6-2z" opacity=".55"/></svg>
+                </span>
+              </div>
+              <div class="hw">
+                <div class="ph-row" aria-hidden="true">
+                  <div class="ph-widget"><span>Portofoliu</span><b>4 proiecte</b><small>2024 – 2026</small></div>
+                  <div class="ph-widget"><span>Status</span><b>Liber</b><small><i></i>Proiecte noi</small></div>
+                </div>
+                <div class="home">
+                  <button class="app press" type="button" data-p="nordlicht" aria-label="Deschide Nordlicht Café">
+                    <span class="icon art ic1"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="n-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset=".7" stop-color="#0d3b4f"/><stop offset="1" stop-color="#14606a"/></linearGradient><linearGradient id="n-a1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2BE3A5" stop-opacity="0"/><stop offset=".5" stop-color="#2BE3A5"/><stop offset="1" stop-color="#7B5CFF" stop-opacity=".2"/></linearGradient></defs><rect width="100" height="100" fill="url(#n-sky)"/><path d="M-5 52C18 22 38 62 58 34S90 18 108 40V62C90 44 74 56 56 52S20 40-5 70z" fill="url(#n-a1)" opacity=".85"/><path d="M-5 66C20 44 42 76 64 54S92 46 108 60V76C90 64 76 74 58 70S24 58-5 86z" fill="#3E7BFF" opacity=".45"/><g fill="#fff"><circle cx="16" cy="16" r="1.4"/><circle cx="72" cy="12" r="1.1"/><circle cx="88" cy="26" r="1.5"/><circle cx="40" cy="10" r="1"/></g><path d="M34 70h26v6a11 11 0 0 1-11 11h-4a11 11 0 0 1-11-11zM60 73h3.5a4.5 4.5 0 0 1 0 9H60" fill="#fff" fill-opacity=".92" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M42 62c-2-3 2-4 0-8M51 62c-2-3 2-4 0-8" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+                    <b>Nordlicht</b>
+                  </button>
+                  <button class="app press" type="button" data-p="atlas" aria-label="Deschide Atlas Fitness">
+                    <span class="icon art ic2"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="a-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB347"/><stop offset=".55" stop-color="#FF4D6D"/><stop offset="1" stop-color="#C21F5B"/></linearGradient></defs><rect width="100" height="100" fill="url(#a-bg)"/><g fill="none" stroke-linecap="round" stroke-width="9"><circle cx="50" cy="50" r="34" stroke="#fff" stroke-opacity=".22"/><circle cx="50" cy="50" r="23" stroke="#fff" stroke-opacity=".22"/><circle cx="50" cy="50" r="12" stroke="#fff" stroke-opacity=".22"/><path d="M50 16a34 34 0 1 1-30 18" stroke="#FFF27A"/><path d="M50 27a23 23 0 1 1-20 12" stroke="#5CF2C8"/><path d="M50 38a12 12 0 1 1-9 6" stroke="#6BD6FF"/></g><path d="M44 50h12M41 46v8M59 46v8" stroke="#fff" stroke-width="3.4" stroke-linecap="round" fill="none"/></svg></span>
+                    <b>Atlas</b>
+                  </button>
+                  <button class="app press" type="button" data-p="fiera" aria-label="Deschide Fieră Market">
+                    <span class="icon art ic3"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="f-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8CF0A8"/><stop offset="1" stop-color="#0E8F5E"/></linearGradient></defs><rect width="100" height="100" fill="url(#f-bg)"/><g transform="rotate(-12 50 50)"><rect x="12" y="14" width="28" height="28" rx="7" fill="#FFB347"/><rect x="44" y="10" width="26" height="26" rx="7" fill="#FF6B4A"/><rect x="72" y="18" width="22" height="22" rx="6" fill="#fff" opacity=".9"/></g><path d="M26 44h48l-4 40H30z" fill="#fff"/><path d="M26 44h48l-1.2 12H27.200z" fill="#0B1030" opacity=".12"/><path d="M38 44a12 12 0 0 1 24 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M50 58c-5 0-8 3-8 7 5 0 8-2 8-7zM50 58c5 0 8 3 8 7-5 0-8-2-8-7z" fill="#14A06A"/></svg></span>
+                    <b>Fieră</b>
+                  </button>
+                  <button class="app press" type="button" data-p="lumen" aria-label="Deschide Lumen Studio">
+                    <span class="icon art ic4"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><radialGradient id="l-g" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#FFE9A8"/><stop offset=".35" stop-color="#FF9FD2" stop-opacity=".9"/><stop offset="1" stop-color="#3A2FD6" stop-opacity="0"/></radialGradient><linearGradient id="l-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B1456"/><stop offset="1" stop-color="#0A0733"/></linearGradient></defs><rect width="100" height="100" fill="url(#l-bg)"/><circle cx="50" cy="50" r="46" fill="url(#l-g)"/><g stroke="#fff" stroke-linecap="round" opacity=".85"><path d="M50 8v14M50 78v14M8 50h14M78 50h14M20 20l10 10M70 70l10 10M80 20 70 30M30 70 20 80" stroke-width="3"/></g><circle cx="50" cy="50" r="22" fill="none" stroke="#fff" stroke-width="3.4"/><circle cx="50" cy="50" r="14" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/><circle cx="50" cy="50" r="6" fill="#fff"/><circle cx="43" cy="43" r="3" fill="#fff" opacity=".7"/></svg></span>
+                    <b>Lumen</b>
+                  </button>
+                  <a class="app press" href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><span class="icon art"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="i-bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".3" stop-color="#FA7E1E"/><stop offset=".6" stop-color="#D62976"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect width="100" height="100" fill="url(#i-bg)"/><rect x="22" y="22" width="56" height="56" rx="16" fill="none" stroke="#fff" stroke-width="6"/><circle cx="50" cy="50" r="13" fill="none" stroke="#fff" stroke-width="6"/><circle cx="67" cy="33" r="4" fill="#fff"/></svg></span><b>Instagram</b></a>
+                  <a class="app press" href="#contact" aria-label="Calendar"><span class="icon art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#fff"/><text id="calW" x="50" y="29" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="17" font-weight="700" fill="#FF3B30" letter-spacing="1">DUM</text><text id="calD" x="50" y="82" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="56" font-weight="300" fill="#111">15</text></svg></span><b>Calendar</b></a>
+                  <a class="app press" href="#top" aria-label="Ceas"><span class="icon art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#0C0C0F"/><circle cx="50" cy="50" r="40" fill="#fff"/><g stroke="#111" stroke-linecap="round"><path d="M50 14v6M50 80v6M14 50h6M80 50h6" stroke-width="3.500"/><path d="M68 19l-3 5M81 32l-5 3M81 68l-5-3M68 81l-3-5M32 81l3-5M19 68l5-3M19 32l5 3M32 19l3 5" stroke-width="1.800"/></g><path id="hH" d="M50 50V30" stroke="#111" stroke-width="4.500" stroke-linecap="round"/><path id="hM" d="M50 50V20" stroke="#111" stroke-width="3.200" stroke-linecap="round"/><path id="hS" d="M50 56V16" stroke="#FF9500" stroke-width="1.800" stroke-linecap="round"/><circle cx="50" cy="50" r="3.500" fill="#FF9500"/></svg></span><b>Ceas</b></a>
+                  <a class="app press" href="#contact" aria-label="Hartă"><span class="icon art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EAF1DA"/><path d="M0 70c20-10 36 6 56-4s30-20 44-14v48H0z" fill="#8EC9F2"/><path d="M-5 30L40 -5M-5 60L70 0M30 105L105 40" stroke="#fff" stroke-width="7" fill="none"/><path d="M0 46L100 22" stroke="#FFD27A" stroke-width="6" fill="none"/><path d="M50 22c-11 0-18 8-18 17 0 12 18 31 18 31s18-19 18-31c0-9-7-17-18-17z" fill="#FF3B30"/><circle cx="50" cy="39" r="7" fill="#fff"/></svg></span><b>Hartă</b></a>
+                  <a class="app press" href="#work" aria-label="Foto"><span class="icon art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#fff"/><g style="mix-blend-mode:multiply"><ellipse cx="50" cy="29" rx="10" ry="19" fill="#FFCF3F"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#FF9F0A" transform="rotate(45 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#FF5E7E" transform="rotate(90 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#C65BEF" transform="rotate(135 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#5E7BFF" transform="rotate(180 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#34C7E6" transform="rotate(225 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#34C759" transform="rotate(270 50 50)"/><ellipse cx="50" cy="29" rx="10" ry="19" fill="#B6E04A" transform="rotate(315 50 50)"/></g></svg></span><b>Foto</b></a>
+                </div>
+                <div class="ph-dots" aria-hidden="true"><i></i><i></i></div>
+                <div class="ph-search" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg> Căutare</div>
+                <nav class="ph-dock" aria-label="Scurtături">
+                  <a class="icon art ic5 press" href="#contact" aria-label="Contact"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="m-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6FD3FF"/><stop offset="1" stop-color="#0A6BFF"/></linearGradient></defs><rect width="100" height="100" fill="url(#m-bg)"/><rect x="16" y="28" width="68" height="46" rx="9" fill="#fff"/><path d="M18 33l32 24 32-24" fill="none" stroke="#0A6BFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="24" r="13" fill="#FF3B30"/><text x="80" y="29.500" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">1</text></svg></a>
+                  <a class="icon art ic6 press" href="#process" aria-label="Proces"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#FFF8DC"/><rect width="100" height="30" fill="#FFC93C"/><circle cx="14" cy="15" r="3.500" fill="#fff" opacity=".8"/><circle cx="26" cy="15" r="3.500" fill="#fff" opacity=".8"/><g stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M16 44l5 5 9-10" stroke="#34C759" stroke-width="4.500"/><path d="M38 44h46" stroke="#C9B26A" stroke-width="4"/><path d="M16 62l5 5 9-10" stroke="#34C759" stroke-width="4.500"/><path d="M38 62h34" stroke="#C9B26A" stroke-width="4"/><circle cx="23" cy="82" r="5" stroke="#FF9F0A" stroke-width="3.500"/><path d="M38 82h40" stroke="#C9B26A" stroke-width="4"/></g></svg></a>
+                  <a class="icon art ic7 press" href="#about" aria-label="Despre mine"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="u-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C6A4FF"/><stop offset=".55" stop-color="#FF8FB8"/><stop offset="1" stop-color="#FFB36B"/></linearGradient></defs><rect width="100" height="100" fill="url(#u-bg)"/><circle cx="50" cy="38" r="17" fill="#fff"/><path d="M14 100c2-22 17-33 36-33s34 11 36 33z" fill="#fff"/><circle cx="50" cy="38" r="17" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="6"/></svg></a>
+                  <a class="icon art ic8 press" href="#top" aria-label="Sus"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="r-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A2A3C"/><stop offset="1" stop-color="#0B0B12"/></linearGradient><radialGradient id="r-g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7CF3FF" stop-opacity=".9"/><stop offset=".6" stop-color="#7B5CFF" stop-opacity=".45"/><stop offset="1" stop-color="#7B5CFF" stop-opacity="0"/></radialGradient></defs><rect width="100" height="100" fill="url(#r-bg)"/><circle cx="50" cy="50" r="42" fill="url(#r-g)"/><circle cx="50" cy="50" r="27" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="3.500"/><path d="M50 66V36M38 47l12-12 12 12" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                </nav>
+              </div>
+              <i class="hind"></i>
+              <div class="lk" id="lk" role="button" tabindex="0" aria-label="Deblochează telefonul. Glisează în sus sau apasă Enter">
+                <div class="lk-in" style="--k:0"><svg class="lk-ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10.5" rx="2.8"/><path class="sh" d="M8.5 10.5V7.6a3.5 3.5 0 0 1 7 0v2.9" stroke-width="2.1" stroke-linecap="round"/></svg></div>
+                <div class="lk-date lk-in" id="lkDate" style="--k:1">&nbsp;</div>
+                <div class="lk-time lk-in" id="lkTime" style="--k:2">--:--</div>
+                <div class="lk-notif lk-in" style="--k:3" aria-hidden="true">
+                  <span class="nic">C</span>
+                  <div class="nt"><b>Cipifaa</b><span>Portofoliu nou: 4 proiecte te așteaptă</span></div>
+                  <time>acum</time>
+                </div>
+                <div class="lk-act lk-in" style="--k:4" aria-hidden="true">
+                  <span class="lk-btn"><svg viewBox="0 0 24 24"><path d="M9 3h6v4l-1.5 2.5V21h-3V9.5L9 7z"/></svg></span>
+                  <span class="lk-btn"><svg viewBox="0 0 24 24"><path d="M4 8.5h3l1.6-2.5h6.8L17 8.5h3a1 1 0 0 1 1 1V18a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.6"/></svg></span>
+                </div>
+                <div class="lk-hint" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></svg> Glisează în sus pentru a deschide</div>
+                <i class="lk-bar lk-in" style="--k:5"></i>
+                <div class="lk-zone"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="process">
+      <div class="sec-head rv">
+        <span class="cap">Cum lucrez</span>
+        <h2>Patru pași, fără surprize</h2>
+        <p>Știi mereu în ce etapă suntem și ce urmează. Fiecare pas se termină cu ceva ce poți vedea.</p>
+      </div>
+      <div class="steps">
+        <article class="step rv" style="--d:1"><div class="step-top"><span class="num">01</span><span class="si"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></span></div><h3>Descoperire</h3><p>Începem cu o conversație despre scopul site-ului, publicul lui și site-urile care îți plac. Ies de aici cu un brief clar.</p><div class="tg"><span>Brief</span><span>Referințe</span><span>Structură</span></div></article>
+        <article class="step rv" style="--d:2"><div class="step-top"><span class="num">02</span><span class="si"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M3.5 9.5h17M9.5 20.5v-11"/></svg></span></div><h3>Design</h3><p>Pornesc de la wireframe-uri, apoi desenez interfața în Figma: tipografie, culori, grilă și toate stările componentelor.</p><div class="tg"><span>Wireframe</span><span>UI în Figma</span><span>Design system</span></div></article>
+        <article class="step rv" style="--d:1"><div class="step-top"><span class="num">03</span><span class="si"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13c2.5-7 5-7 7.5 0s5 7 7.5 0l3-3"/></svg></span></div><h3>Animație</h3><p>Mișcarea e parte din design. Tranziții între pagini, micro-interacțiuni la atingere și scroll care îți ghidează ochiul.</p><div class="tg"><span>Micro-interacțiuni</span><span>Scroll</span><span>Prototip viu</span></div></article>
+        <article class="step rv" style="--d:2"><div class="step-top"><span class="num">04</span><span class="si"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10.5 13.5M21 3l-6.5 18-4-7.5L3 9.5z"/></svg></span></div><h3>Lansare</h3><p>Scriu codul curat, verific viteza pe telefon și pe laptop, apoi îți predă tot ce ai nevoie ca să administrezi site-ul singur.</p><div class="tg"><span>Cod curat</span><span>Performanță</span><span>Predare</span></div></article>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="about">
+      <div class="sec-head rv"><span class="cap">Despre mine</span></div>
+      <div class="about-card rv" style="--d:1">
+        <p>Cred că un site bun nu se explică, se <mark>simte</mark>. Pornesc de la scopul tău, construiesc o structură clară și apoi adaug <mark>mișcarea</mark> care face fiecare atingere să conteze. Fără template-uri, fără efecte puse de dragul efectului. Doar design gândit pentru <mark>oamenii</mark> care îl vor folosi.</p>
+      </div>
+      <div class="stats">
+        <div class="stat rv" style="--d:1"><h4 style="color:var(--orange)">Template-uri</h4><b><span data-count="0">0</span></b><span>folosite în proiectele mele</span></div>
+        <div class="stat rv" style="--d:2"><h4 style="color:var(--green)">Animații</h4><b><span data-count="60">60</span><sup>fps</sup></b><span>ținta pentru fiecare animație, și pe telefon</span></div>
+        <div class="stat rv" style="--d:3"><h4 style="color:var(--blue)">Responsive</h4><b><span data-count="100">100</span><sup>%</sup></b><span>de la 360 px în sus</span></div>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="reviews">
+      <div class="sec-head center rv"><span class="cap">Recenzii</span><h2>Ce spun cei cu care am lucrat</h2></div>
+      <div class="rgrid stg">
+        <div class="rev">
+          <div class="who">
+            <span class="av">C</span>
+            <div><b>Cristina Pîslariu</b><small>psihoconect.com · Platformă web</small></div>
+          </div>
+          <span class="stars" aria-label="5 din 5">★★★★★</span>
+          <p>Colaborarea a decurs impecabil, iar platforma a fost livrată exact așa cum mi-am dorit. Sistemul de programări și organizarea documentelor îmi ușurează enorm activitatea zilnică.</p>
+        </div>
+        <div class="rev rev-soon">
+          <div class="who">
+            <span class="av">?</span>
+            <div><b>Recenzie rezervată</b><small>Proiect în desfășurare</small></div>
+          </div>
+          <span class="stars" aria-label="În curând">☆☆☆☆☆</span>
+          <p>Spațiu rezervat pentru feedback-ul unui proiect aflat momentan în lucru. Recenzia va fi publicată imediat după finalizare.</p>
+        </div>
+        <div class="rev rev-soon">
+          <div class="who">
+            <span class="av">+</span>
+            <div><b>Aici poate fi proiectul tău</b><small>Slot disponibil</small></div>
+          </div>
+          <span class="stars" aria-label="5 din 5">☆☆☆☆☆</span>
+          <p>Ai o idee sau un proiect de lansat? Hai să îl construim împreună, iar recenzia ta va ocupa chiar acest loc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="contact">
+      <div class="sec-head rv">
+        <span class="cap">Contact</span>
+        <h2>Hai să facem ceva de care să-ți fie dor</h2>
+      </div>
+      <div class="group rv" style="--d:1">
+        <div class="item">
+          <span class="sq ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="3"/><path d="M4.5 8l7.5 5.5L19.5 8"/></svg></span>
+          <div class="tx"><span>Scrie-mi la</span><div class="mail" id="mail">ciprianpislariu@yahoo.com</div></div>
+          <button class="act press" id="copyBtn" type="button">Copiază</button>
+        </div>
+        <a class="item" href="https://www.instagram.com/cipifaa.web/" target="_blank" rel="noopener">
+          <span class="sq ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5.2"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span>
+          <div class="tx"><b>Instagram</b><span>Urmărește lucrările mele</span></div>
+          <svg class="chev" viewBox="0 0 9 15" aria-hidden="true"><path d="M1.5 1.5 7.5 7.5l-6 6"/></svg>
+        </a>
+      </div>
+      <div class="foot">
+        <span>© 2026 Cipifaa</span>
+        <a href="#top">Sus ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <filter id="goo" x="-10%" y="-60%" width="120%" height="220%" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="b"/>
+        <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <nav class="dock" id="dock" aria-label="Navigare">
+    <div class="goo no-anim" id="gooLayer" aria-hidden="true"><i class="a"></i><i class="c"></i><i class="d"></i><i class="b"></i></div>
+    <a href="#top" data-s="top" class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg>Acasă</a>
+    <a href="#work" data-s="work"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg>Lucrări</a>
+    <a href="#process" data-s="process"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6H20M9.5 12H20M9.5 18H20"/><circle cx="4.8" cy="6" r=".6"/><circle cx="4.8" cy="12" r=".6"/><circle cx="4.8" cy="18" r=".6"/></svg>Proces</a>
+    <a href="#about" data-s="about"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.6"/><path d="M5 20c.8-3.6 3.6-5.5 7-5.5s6.2 1.9 7 5.5"/></svg>Despre</a>
+    <a href="#contact" data-s="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M4 7.5l8 6 8-6"/></svg>Contact</a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6.3 4.8 9 10 3.2"/></svg></i><span id="toastTxt"></span></div>
+
+  <div class="sheet-wrap" id="sheetWrap" inert>
+    <div class="scrim" data-close></div>
+    <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shTitle">
+      <div class="grab" id="grab">
+        <i class="handle"></i>
+        <div class="sh-head"><h3 id="shTitle"></h3><button class="done press" type="button" data-close>Gata</button></div>
+      </div>
+      <div class="sh-body">
+        <div class="preview" id="shPrev" aria-hidden="true"></div>
+        <div class="sh-tags" id="shTags"></div>
+        <p id="shDesc"></p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
